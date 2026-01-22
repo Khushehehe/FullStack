@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color:azure;
+}
+.form{
+    display: flex;
+    height: 32rem;
+    width: 23rem;
+    box-shadow: 2px 2px 12px black;
+    padding: 10px;
+    background-color: white;
+    flex-direction: column;
+}
+.form:hover{
+    box-shadow: 2px 2px 18px black;
+    height: 32.1rem;
+}
+.inp{
+    margin: 1rem;
+    margin-top: 2rem;
+}
+input{
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    margin-top: 0.2rem;
+    padding: 0.25rem;
+}
+label{
+    font-size: 1.25rem;
+    font-weight: 550;
+
+}
+button{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 7rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+    align-self: flex-end;
+}
